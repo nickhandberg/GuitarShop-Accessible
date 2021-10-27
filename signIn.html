@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>SignIN</title>
+    <link rel="stylesheet" href="GuitarShop.css">
+    <script src = "GuitarShop.js" defer></script>
+   
+    <!--
+    Nicholas Handberg, Assignment 5, 4/15/2021
+    Grid Layout/Accessability
+    Creating a webpage using grid layout and accessability features 
+    -->
+  </head>
+  <body>
+
+    <div id = "navigation">
+        <header><a class = "nav" id = "skip_to_main" href = "#main_content">Skip to main content</a></header>
+        <ul>
+            <li><a class = "nav" href = "GuitarShop.html#guitars">Guitars</a></li>
+            <li><a class = "nav" href = "GuitarShop.html#lessons">Lessons</a></li>
+            <li><a href = "GuitarShop.html#welcome"><img id = "logo" src = "graphic/logo.png" alt = "Bobs guitar shop logo"></a></li>
+            <li><a class = "nav" href = "GuitarShop.html#tabs">Tabs</a></li>
+            <li><a class = "nav" href = "#signInForm">Sign in</a></li>
+        </ul>
+    </div>
+
+    <div id = "main_content">
+    
+        <div class="wrapper1" id= "signInForm">
+          <div>
+            <h1 class = "signInHeading">Sign in to access Lessons and Tabs</h1>
+            <form>
+                <fieldset>
+                <legend>Sign In</legend>
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username"><br><br>
+                <label for="password">Password:</label>
+                <input type="text" id="password" name="password"><br><br>
+                <input class = "submit_button" type="submit" value="Sign in">
+                <input class = "submit_button" type="button" value="Sign up">
+                </fieldset>
+            </form>   
+          </div>  
+        </div>
+
+        <footer>Contact Us | Sign In | Sign Up</footer>
+
+    </div>
+
+    
+
+    
+    
+
+
+  </body>
+</html>
